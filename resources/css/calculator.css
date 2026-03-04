@@ -1,0 +1,31 @@
+.select-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #fff;
+}
+
+.select-card:hover {
+  border-color: #0d6efd;
+}
+
+.select-card.active {
+  border-color: #0d6efd;
+  background: #f0f7ff;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+}
+
+.progress-sm {
+  height: 6px;
+  border-radius: 6px;
+}
+
+.progress-sm .progress-bar {
+  background-color: #0d6efd;
+}

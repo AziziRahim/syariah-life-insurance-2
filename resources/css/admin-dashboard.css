@@ -1,0 +1,80 @@
+/* ===============================
+   SIDEBAR
+================================ */
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #023e8a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.sidebar-title {
+  white-space: nowrap;
+}
+
+/* ===============================
+   NAV LINK
+================================ */
+.sidebar .nav-link {
+  color: #caf0f8;
+  font-size: 15px;
+  padding: 10px 14px;
+  line-height: 1.4;
+  text-decoration: none;
+  user-select: none;
+}
+
+/* ===============================
+   ICON
+================================ */
+.sidebar-icon {
+  width: 24px;
+  min-width: 24px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* ===============================
+   TEXT
+================================ */
+.sidebar-text {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* ===============================
+   BUTTON EFFECT
+================================ */
+.sidebar-btn {
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.12s ease, transform 0.12s ease;
+}
+
+.sidebar-btn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-btn:active {
+  transform: scale(0.97);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1040;
+  }
+}

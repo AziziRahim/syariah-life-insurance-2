@@ -1,0 +1,33 @@
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  backdrop-filter: none;
+  z-index: 1040;
+}
+
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+}
+
+.modal.show .modal-dialog {
+  transform: translateY(0);
+}
+
+.modal.fade .modal-dialog {
+  transform: translateY(20px);
+  transition: transform 0.25s ease-out;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  opacity: 1;
+  filter: none;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  will-change: transform;
+}

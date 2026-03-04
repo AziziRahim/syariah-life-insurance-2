@@ -1,0 +1,22 @@
+.payment-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #fff;
+}
+
+.payment-card:hover {
+  border-color: #0d6efd;
+}
+
+.payment-card.active {
+  border-color: #198754;
+  background: #f0fdf4;
+}
+
+.payment-card.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

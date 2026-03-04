@@ -1,0 +1,179 @@
+.ajukan-polis-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.polis-card {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.form-checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #198754;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #157347;
+}
+
+.confirm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.confirm-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.confirm-item .label {
+    color: #666;
+    font-size: 14px;
+}
+
+.confirm-item .value {
+    font-weight: 600;
+}
+
+.confirm-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+/* ===== Modern Back Header ===== */
+.confirm-header {
+    margin-bottom: 12px;
+}
+
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: color 0.2s ease;
+}
+
+.btn-back:hover {
+    color: #000;
+}
+
+.back-icon {
+    font-size: 18px;
+    line-height: 1;
+}
+
+/* ===== Confirm List ===== */
+.confirm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.confirm-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.confirm-item .label {
+    color: #666;
+    font-size: 14px;
+}
+
+.confirm-item .value {
+    font-weight: 600;
+}
+
+/* ===== Actions ===== */
+.confirm-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ===== RESULT PAGE ===== */
+/* ===== RESULT PAGE ===== */
+.polis-result {
+    text-align: center;
+}
+
+.result-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.result-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+/* PRINT MODE */
+@media print {
+    .btn-outline,
+    .btn-submit {
+        display: none;
+    }
+
+    body {
+        background: white;
+    }
+}
+

@@ -1,0 +1,16 @@
+.contact-frame {
+  background: linear-gradient(135deg, #f8fbff, #eef4ff);
+  border-radius: 24px;
+  padding: 48px 40px;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: 570px;
+  object-fit: contain;
+}
+
+.contact-form .form-control {
+  border-radius: 12px;
+  padding: 12px 14px;
+}

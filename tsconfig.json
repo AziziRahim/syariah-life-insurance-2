@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    "jsx": "react-jsx",
+
+    "strict": true,
+    "isolatedModules": true,
+    "moduleResolution": "Bundler",
+
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+
+    "noEmit": true,
+    "skipLibCheck": true,
+
+    "types": ["vite/client"]
+  },
+  "include": ["resources/ts/**/*"],
+  "exclude": ["node_modules"]
+}
